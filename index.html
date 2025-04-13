@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font aweshome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="glowing">
+      <span style="--i: 1"></span>
+      <span style="--i: 2"></span>
+      <span style="--i: 3"></span>
+    </div>
+    <div class="glowing">
+      <span style="--i: 1"></span>
+      <span style="--i: 2"></span>
+      <span style="--i: 3"></span>
+    </div>
+    <div class="glowing">
+      <span style="--i: 1"></span>
+      <span style="--i: 2"></span>
+      <span style="--i: 3"></span>
+    </div>
+    <div class="glowing">
+      <span style="--i: 1"></span>
+      <span style="--i: 2"></span>
+      <span style="--i: 3"></span>
+    </div>
+    <div class="container">
+      <div class="todolist">
+        <div class="alert">
+          <p></p>
+        </div>
+        <div class="orngbg"></div>
+        <h3>To-do list</h3>
+        <div class="filter">
+          <i class="fa-solid fa-arrow-up-a-z" style="display: none"></i>
+          <i class="fa-solid fa-arrow-down-z-a"></i>
+        </div>
+        <div class="list">
+          <ul></ul>
+        </div>
+        <div class="addInput">
+          <input type="text" id="addInput" autocomplete="off" />
+          <button class="inputClearBtn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="buttons">
+          <button class="icon-btn add-btn">
+            <div class="add-icon"></div>
+            <div class="btn-txt">Add ToDo</div>
+          </button>
+          <button class="icon-btn close-btn">
+            <div class="close-icon"></div>
+            <div class="btn-txt">Close</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
