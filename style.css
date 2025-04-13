@@ -235,12 +235,12 @@ h3 {
   cursor: pointer;
   transition: 0.3s;
 }
-/* .list ul li:hover {
-  background-color: #823ae00b;
+.list ul li:hover {
+  background-color: #823ae00f;
   box-shadow:
     0 -1px 0 0 #83828232,  
     0 1px 0 0 #8382821f;
-} */
+}
 
 .list ul li i {
   width: 20px;
